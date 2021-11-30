@@ -1,0 +1,177 @@
+/*
+colors 
+
+light-purple: #DEC9F2;
+dark-blue: #4945BF;
+light-blue: #615CF2;
+orange: #F2913D;
+light-grey: #F2F2F2
+*/
+header {
+	padding: 30px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+header a {
+	color: #4c44c1;
+	text-decoration: none;
+}
+header .logo {
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+}
+header .logo img {
+	width: 40px;
+}
+header .menu {
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+header,
+menu a {
+	text-transform: uppercase;
+}
+header .header-buttons {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 20px;
+}
+header .header-buttons .blue-btn {
+	background: #4c44c1;
+	color: white;
+	padding: 14px 46px;
+	border-radius: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header .header-buttons .blue-btn .fas {
+	margin-left: 10px;
+}
+header .header-buttons .orange-btn {
+	color: white;
+	background: #f2913d;
+	padding: 14px 46px;
+	border-radius: 35px;
+	margin-left: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*container css*/
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+#top-jumbo {
+	padding: 0 0 400px;
+	background: #ffffff;
+	background: -moz-linear-gradient(
+		-45deg,
+		#ffffff 0%,
+		#ffffff 40%,
+		#8948f2 77%,
+		#e0a1df 100%
+	);
+	background: -webkit-linear-gradient(
+		-45deg,
+		#ffffff 0%,
+		#ffffff 40%,
+		#8948f2 77%,
+		#e0a1df 100%
+	);
+	background: linear-gradient(
+		135deg,
+		#ffffff 0%,
+		#ffffff 40%,
+		#8948f2 77%,
+		#e0a1df 100%
+	);
+}
+#top-jumbo:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#top-jumbo .left-side {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+#top-jumbo .left-side .large-number {
+	font-size: 400px;
+	font-weight: 700;
+	opacity: 0.1;
+	color: #4c44c1;
+	position: relative;
+	left: -2px;
+	top: 50px;
+	z-index: 1;
+}
+#top-jumbo .left-side .info-container {
+	position: relative;
+	top: -150px;
+}
+
+.info-container h1 {
+	color: #4c44c1;
+	font-size: 4.5rem;
+	text-transform: capitalize;
+	line-height: 0.9;
+}
+.info-container p {
+	color: #aaacaf;
+	font-size: 1.2rem;
+	line-height: 1;
+	text-transform: uppercase;
+	position: relative;
+	top: -50px;
+}
+#top-jumbo .left-side .info-container .email-area .fa {
+	font-size: 1.2rem;
+	position: relative;
+	top: 3px;
+}
+.info-container .email-area {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	top: -50px;
+	background: white;
+	border-radius: 35px;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+	background: white;
+	border: none;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	width: 150px;
+	margin-left: -45px;
+}
+#top-jumbo .left-side .info-container .email-area button {
+	background: #4c44c1;
+	padding: 20px 50px;
+	color: white;
+	font-size: 1rem;
+	border-radius: 35px;
+	border: none;
+	text-transform: uppercase;
+}
+#top-jumbo .right-side {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+#top-jumbo .right-side img {
+	width: 100%;
+}
